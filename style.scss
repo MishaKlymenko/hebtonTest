@@ -1,0 +1,19 @@
+$bg1: red;
+$bg2: yellow;
+.wrapper {
+        width: 600px;
+        height: 600px;
+
+        .bounc {
+            width: 400px;
+            height: 300px;
+            background-color: $bg1;
+
+            &:hover {
+                background-color: $bg2;
+                transform: rotate(360deg);
+                transition: 5s;
+
+            }
+        }
+    }

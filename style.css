@@ -1,0 +1,14 @@
+.wrapper {
+  width: 600px;
+  height: 600px;
+}
+.wrapper .bounc {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+}
+.wrapper .bounc:hover {
+  background-color: yellow;
+  transform: rotate(360deg);
+  transition: 5s;
+}/*# sourceMappingURL=style.css.map */
