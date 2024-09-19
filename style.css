@@ -8,6 +8,7 @@
   background-color: red;
 }
 .wrapper .bounc:hover {
+  cursor: pointer;
   background-color: yellow;
   transform: rotate(360deg);
   transition: 5s;

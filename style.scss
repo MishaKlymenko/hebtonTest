@@ -10,6 +10,7 @@ $bg2: yellow;
             background-color: $bg1;
 
             &:hover {
+                cursor: pointer;
                 background-color: $bg2;
                 transform: rotate(360deg);
                 transition: 5s;
